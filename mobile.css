@@ -49,10 +49,11 @@ main {
 /*GENERAL CARD STYLES*/
 
 .card {
-    width: 85%;
-    height: 400px;
+    min-width: 256px;
+    max-width: 300px;
+    min-height: 400px;
+    max-height: 450px;
     padding: 40px;
-    border-radius: 10px;
 }
 
 .card img {
@@ -89,9 +90,24 @@ main {
     background-color: var(--Very-light-gray);
 }
 
-/*COLORS FROM CARDS*/
+.sedan {
+    color: var(--Bright-orange);
+}
+
+.suv a {
+    color: var(--Dark-cyan);
+}
+
+.luxury a {
+    color: var(--Very-dark-cyan);
+}
+
+
+/*COLORS FROM CARDS AND CORNERS STYLES*/
 .sedan {
     background-color: var(--Bright-orange);
+    border-radius: 10px 10px 0px 0px;
+
 }
 
 .suv {
@@ -100,5 +116,23 @@ main {
 
 .luxury {
     background-color: var(--Very-dark-cyan);
+    border-radius: 0px 0px 10px 10px;
 }
 
+
+/*SIGN STYLES*/
+
+.attribution {
+    width: 100%;
+    height: 50px;
+    margin: 0px auto 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution p {
+    font-size: 1.6rem;
+    font-family: var(--lexend);
+    
+}
