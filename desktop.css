@@ -1,0 +1,19 @@
+.card-container {
+    flex-direction: row;
+}
+
+.sedan {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.suv {
+    border-radius: 0px;
+}
+
+.luxury {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card {
+    min-height: 450px;
+}

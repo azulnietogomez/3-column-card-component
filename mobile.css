@@ -49,6 +49,9 @@ main {
 /*GENERAL CARD STYLES*/
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 256px;
     max-width: 300px;
     min-height: 400px;
@@ -79,6 +82,7 @@ main {
 }
 
 .card a {
+    width: 150px;
     font-size: 1.2rem;
     font-family: var(--lexend);
     color: var(--Bright-orange);
